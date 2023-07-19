@@ -18,7 +18,6 @@ long long MaxPairwiseProduct(const std::vector<int>& numbers) {
         {
             secondMaximum = numbers[first];
         }
-        std::cout << first << std::endl;
     }
     max_product = maximum * secondMaximum;
     return max_product;
