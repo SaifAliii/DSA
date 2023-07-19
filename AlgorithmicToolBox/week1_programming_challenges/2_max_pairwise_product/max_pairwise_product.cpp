@@ -5,8 +5,8 @@
 long long MaxPairwiseProduct(const std::vector<int>& numbers) {
     long long max_product = 0;
     int n = numbers.size();
-    int maximum = -1;
-    int secondMaximum = -2;
+    long long maximum = -1;
+    long long secondMaximum = -2;
 
     for (int first = 0; first < n; first++) {
         if (numbers[first] >= maximum)
